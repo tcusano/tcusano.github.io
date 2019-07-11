@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+---
+title: "Welcome to Tony's Website"
+sidebar: mydoc_sidebar
+permalink: index.html
+---
+## This Site
+My ambition for this site is to provide useful information and tips to fellow IT collegues. I shall be adding more to site in due time. 
 
-You can use the [editor on GitHub](https://github.com/tcusano/tcweb/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## About me in brief
+I started working in IT in 1988 and since then I have been working on many different systems. I have been working with Oracle databases for over 20 years and I recently moved into DEVOPS.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tcusano/tcweb/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Experience in brief
+<table id="Experience" class="display">
+   <thead>
+      <tr>
+         <th>Scripting</th>
+         <th>OS's</th>
+         <th>Applications</th>
+         <th>Version Control Systems</th>
+         <th>Cloud</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Korn/borne shell <br>
+          Powershell<br>
+          Python<br>
+          Groovy<br>
+          Terraform<br>
+          Oracle PL/Sql</td>
+         <td>Linux<br>
+          AIX<br>
+          Solaris<br>
+          Windows Server</td>
+         <td>Netbackup<br>
+          TSM Backup<br>
+          Automic (UC4)<br>
+          PowerCenter<br>
+          Oracle RDBM server/ASM/OEM<br>
+          MS Sql Server<br>
+          Jenkins</td>
+         <td>Github.com<br>
+          Devops Azure (Cloud)<br>
+          PVCS<br>
+          Subversion</td>
+         <td>AWS<br>
+          Oracle (POC)
+         </td>
+      </tr>
+   </tbody>
+</table>
