@@ -4,11 +4,11 @@ sidebar: mydoc_sidebar
 permalink: index.html
 ---
 ## This Site
-My ambition for this site is to provide useful information and tips to fellow IT collegues. I shall be adding more to site in due time. 
+My ambition for this site is to provide useful information and tips to fellow IT collegues. I shall be adding more to site in due course. 
 
 
 ## About me in brief
-I started working in IT in 1988 and since then I have been working on many different systems. I have been working with Oracle databases for over 20 years and I recently moved into DEVOPS.
+I started working in IT in 1988 and since then I have been working on many different systems. I have been working with Oracle databases for over 20 years and I moved into DEVOPS over a year ago and I am really enjoying this new role as there are many new challeges and much more scripting. 
 
 ## Experience in brief
 <table id="Experience" class="display">
@@ -50,3 +50,6 @@ I started working in IT in 1988 and since then I have been working on many diffe
       </tr>
    </tbody>
 </table>
+
+## Contact
+<a href="https://linkedin.com/in/tony-cusano-09733810">Tony</a>
