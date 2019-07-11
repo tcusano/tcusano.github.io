@@ -4,7 +4,7 @@ sidebar: mydoc_sidebar
 permalink: index.html
 ---
 ## This Site
-My ambition for this site is to provide useful information and tips to fellow IT collegues. I shall be adding more to site in due course. 
+My ambition for this site is to provide useful tools and tips to fellow IT collegues. I shall be adding more to site in due course. 
 
 
 ## About me in brief
