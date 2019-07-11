@@ -23,29 +23,29 @@ I started working in IT in 1988 and since then I have been working on many diffe
    </thead>
    <tbody>
       <tr>
-         <td>Korn/borne shell <br>
-          Powershell<br>
-          Python<br>
-          Groovy<br>
-          Terraform<br>
-          Oracle PL/Sql</td>
-         <td>Linux<br>
-          AIX<br>
-          Solaris<br>
-          Windows Server</td>
-         <td>Netbackup<br>
-          TSM Backup<br>
-          Automic (UC4)<br>
-          PowerCenter<br>
-          Oracle RDBM server/ASM/OEM<br>
-          MS Sql Server<br>
-          Jenkins</td>
-         <td>Github.com<br>
-          Devops Azure (Cloud)<br>
-          PVCS<br>
-          Subversion</td>
-         <td>AWS<br>
-          Oracle (POC)
+         <td>- Korn/borne shell <br>
+          - Powershell<br>
+          - Python<br>
+          - Groovy<br>
+          - Terraform<br>
+          - Oracle PL/Sql</td>
+         <td>- Linux<br>
+          - AIX<br>
+          - Solaris<br>
+          - Windows Server</td>
+         <td>- Netbackup<br>
+          - TSM Backup<br>
+          - Automic (UC4)<br>
+          - PowerCenter<br>
+          - Oracle RDBM server/ASM/OEM<br>
+          - MS Sql Server<br>
+          - Jenkins</td>
+         <td>- Github.com<br>
+          - Devops Azure (Cloud)<br>
+          - PVCS<br>
+         - Subversion</td>
+         <td>- AWS<br>
+          - Oracle (POC)
          </td>
       </tr>
    </tbody>
