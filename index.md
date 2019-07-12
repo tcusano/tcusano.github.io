@@ -52,4 +52,4 @@ I started working in IT in 1988 and since then I have been working on many diffe
 </table>
 
 ## Contact
-<a href="https://linkedin.com/in/tony-cusano-09733810">Tony</a>
+<a href="https://linkedin.com/in/tony-cusano-09733810">LinkedIn</a>
