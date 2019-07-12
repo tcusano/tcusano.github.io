@@ -9,6 +9,9 @@ permalink: oracle_migration_tool.html
 folder: mydoc
 ---
 
+## License
+<a href="https://github.com/tcusano/tcomt/blob/master/LICENSE">GNU GENERAL PUBLIC LICENSE</a>
+
 ## About the author
 
 I keep this brief as you are probably more interested in the tool. I started working in IT in 1988 and since then I have been working on many different systems. I have been working with Oracle databases for over 20 years and I recently moved into DEVOPS.   
@@ -118,7 +121,7 @@ Python Modules:
 * cx_Oracle 7.0.0  
 * pycrypto 2.6.1  
 
-### Prerequisits
+### Prerequisites
 
 {{site.data.alerts.important}}The target database must be 12c or higher. Source database must be 10g or upto the same as target database. {{site.data.alerts.end}}
 
