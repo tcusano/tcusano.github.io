@@ -38,7 +38,7 @@ It takes a copy of the database files to the new site and converts the files to 
 
 ## Test Matrix
 
-As you can see in the table below that there are many version tests still to be carried out, at the moment I have not had time to test every version but will do in due course.
+In the table below that there are many version tests still to be carried out, at the moment I have not had time to test every version but will do in due course.
 
 <table id="matrix" class="display">
    <thead>
@@ -334,7 +334,7 @@ This time the screenshot shows the confirmation, click on “YES” if you wish 
 
 <img title="" src="images/Selection_042.png" />
 
-As you can see in the log console, there are a lot of tasks that have been processed. Now to see this information we need to click the “Refresh All” button.
+In the log console, there are a lot of tasks that have been processed. Now to see this information we need to click the “Refresh All” button.
 
 <img title="" src="images/Selection_043.png" />
 
