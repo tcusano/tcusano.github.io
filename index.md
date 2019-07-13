@@ -8,7 +8,7 @@ I shall be adding more to the site in due course (WIP).
 
 
 ## About me in brief
-I started working in IT in 1988 and since then I have been working on many different systems. I have been working with Oracle databases for over 20 years and I moved into DEVOPS over a year ago and I am really enjoying this new role as there are many new challeges and much more scripting. 
+I started working in IT in 1988 and since then I have been working on many different systems. I have been working with Oracle databases for over 20 years and I moved into DEVOPS over a year ago.
 
 ## Experience in brief
 <table id="Experience" class="display">
