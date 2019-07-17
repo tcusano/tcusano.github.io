@@ -3,53 +3,22 @@ title: "Welcome to Tony's Website"
 sidebar: mydoc_sidebar
 permalink: index.html
 ---
-## This Site
-I shall be adding more to the site in due course (WIP). 
+# About This Site
+
+Why I have decided to create this site is for a few reasons: 
+ 1. A way to share some of my experiences and tips and gotcha's with fellow IT personel or super users (can't leave then out).
+ 2. A way for me to learn another exciting tool Jekyll upon which this site is built with.  <img title="my sample page" src="images/jekyll.png" />
+ 3. To advertise any products I develop.
+
+# Coming Up soon
+
+Very excited to announce a new tool called "OraDB Migration Tool" which I have been working on for the past 15 months (on and off in my spare time). 
+The product is still in testing phase but documentation can be previewed <a href='oracle_migration_tool.html'>here</a>.
+
+The reason I started to write this migration tool was really to achive two things. The first was to learn Python and the second to have a tool to migrate Oracle database from on premise to the Cloud or to another server on premise, making the DBA life hassle free!
+  
+  
+{{site.data.alerts.note}} I shall be adding more to the site in due course (WIP). {{site.data.alerts.end}}
 
 
-## About me in brief
-I started working in IT in 1988 and since then I have been working on many different systems. I have been working with Oracle databases for over 20 years and I moved into DEVOPS over a year ago.
 
-## Experience in brief
-<table id="Experience" class="display">
-   <thead>
-      <tr>
-         <th>Scripting</th>
-         <th>OS's</th>
-         <th>Applications</th>
-         <th>Version Control Systems</th>
-         <th>Cloud</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td>- Korn/borne shell <br>
-          - Powershell<br>
-          - Python<br>
-          - Groovy<br>
-          - Terraform<br>
-          - Oracle PL/Sql</td>
-         <td>- Linux<br>
-          - AIX<br>
-          - Solaris<br>
-          - Windows Server</td>
-         <td>- Netbackup<br>
-          - TSM Backup<br>
-          - Automic (UC4)<br>
-          - PowerCenter<br>
-          - Oracle RDBM server/ASM/OEM<br>
-          - MS Sql Server<br>
-          - Jenkins</td>
-         <td>- Github.com<br>
-          - Devops Azure (Cloud)<br>
-          - PVCS<br>
-         - Subversion</td>
-         <td>- AWS<br>
-          - Oracle (POC)
-         </td>
-      </tr>
-   </tbody>
-</table>
-
-## Contact
-<a href="https://linkedin.com/in/tony-cusano-09733810">LinkedIn</a>

@@ -3,6 +3,10 @@
 topnav:
 - title: Topnav
   items:
+    - title: About Me
+      url: /aboutme
+    - title: LinkedIn
+      external_url: https://linkedin.com/in/tony-cusano-09733810
 
 #Topnav dropdowns
 topnav_dropdowns:

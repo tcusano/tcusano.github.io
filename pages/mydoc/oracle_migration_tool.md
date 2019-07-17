@@ -1,5 +1,5 @@
 ---
-title: Oracle Migration Tool V1.0
+title: OraDB Migration Tool V1.0
 tags: 
 keywords: 
 last_updated: July 6, 2019
@@ -10,15 +10,11 @@ folder: mydoc
 ---
 
 ## License
-<a href="https://github.com/tcusano/tcomt/blob/master/LICENSE">GNU GENERAL PUBLIC LICENSE</a>
-
-## About the author
-
-I keep this brief as you are probably more interested in the tool. I started working in IT in 1988 and since then I have been working on many different systems. I have been working with Oracle databases for over 20 years and I recently moved into DEVOPS.   
+Copyright Tony Cusano
 
 ## Introduction
 
-The reason I started to write this migration tool was really to achive two things. The first was to learn Python and the second to have a tool to migrate Oracle database to the Cloud or to on premise. What triggered me to writing this tool was when I carried out a proof of concept migrating an Oracle database from Oracle Solaris (Big Endian) on premise to Oracle Linux (Little Endian) to Oracle Cloud using xttdriver.pl (which is script provided by Oracle). I found that there was too much manual work involved in using this tool and is prone to human error, as I have found out. So hopefully with this new tool I have made it easier for the DBA to migrate an Oracle database without the worry of having to remember all the manual checks you have to do before you start a migration and the manual tasks of backups of the source and restores to target.
+The reason I started to write this migration tool was really to achive two things. The first was to learn Python and the second to have a tool to migrate Oracle database from on premise to the Cloud or to another server on premise. A few years ago I carried out a proof of concept in migrating an Oracle database from Oracle Solaris (Big Endian) on premise to Oracle Linux (Little Endian) in Oracle Cloud using xttdriver.pl (which is script provided by Oracle). I found that there was too much manual work involved in using this tool and is prone to human error, as I have found out. Therefore I set my self a challege to write a tool that hopefully will make it easier for the DBA, to migrate an Oracle database without the worry of having to remember all the manual checks you have to do before you start a migration and the ihassel of the manual tasks of backups and restores.
 
 ## Scope
 

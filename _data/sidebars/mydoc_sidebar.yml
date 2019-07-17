@@ -19,16 +19,20 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Oracle
+  - title: For Oracle
     output: web, pdf
     folderitems:
 
-    - title: Oracle Migration Tool
+    - title: OraDB Migration Tool
       url: /oracle_migration_tool.html
       output: web, pdf
 
-#    - title: Release 5.0
-#      url: /mydoc_release_notes_50.html
+#  - title: Jenkins
+#    output: web, pdf
+#    folderitems:
+#
+#    - title: Restart points
+#      url: /Jenkins_restart_point.html
 #      output: web, pdf
 #
 #  - title: Installation
