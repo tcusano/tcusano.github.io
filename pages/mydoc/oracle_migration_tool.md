@@ -14,7 +14,7 @@ Copyright Tony Cusano
 
 ## Introduction
 
-The reason I started to write this migration tool was really to achive two things. The first was to learn Python and the second to have a tool to migrate Oracle database from on premise to the Cloud or to another server on premise. A few years ago I carried out a proof of concept in migrating an Oracle database from Oracle Solaris (Big Endian) on premise to Oracle Linux (Little Endian) in Oracle Cloud using xttdriver.pl (which is script provided by Oracle). I found that there was too much manual work involved in using this tool and is prone to human error, as I have found out. Therefore I set my self a challege to write a tool that hopefully will make it easier for the DBA, to migrate an Oracle database without the worry of having to remember all the manual checks you have to do before you start a migration and the ihassel of the manual tasks of backups and restores.
+The reason I started to write this migration tool was really to achive two things. The first was to learn Python and the second to have a tool to migrate Oracle database from on premise to the Cloud or to another server on premise. A few years ago I carried out a proof of concept in migrating an Oracle database from Oracle Solaris (Big Endian) on premise to Oracle Linux (Little Endian) in Oracle Cloud using xttdriver.pl (which is script provided by Oracle). I found that there was too much manual work involved in using this tool and is prone to human error. Therefore I set myself a challege to write a tool that hopefully will make it easier for the DBA to migrate an Oracle database without the worry of having to remember all the manual checks you have to do before you start a migration and the hassel of the manual tasks of backups and restores.
 
 ## Scope
 
@@ -28,13 +28,13 @@ The tool uses entirely Oracle commands and packages.
 
 The tool can be run any time meaning it can run along side an online database while in use by the business as it does not require any database downtime during the file transfer and backups. Only downtime that will be required is the final switch over to the newly migrated database.
 
-{{site.data.alerts.important}} Do not run this on your production database for POC or testing. As you will not be able to complete the final step without putting the source database tablespaces to READ ONLY mode.{{site.data.alerts.end}}
+{{site.data.alerts.important}} Do not run this on your production database for POC or testing. You will not be able to complete the final step without putting the source database tablespaces to READ ONLY mode.{{site.data.alerts.end}}
 
-It takes a copy of the database files to the new site and converts the files to the appropriate endian if it needs to. Then a daily backup is run and applied to the datafiles on the target to keep then up to date. No different to xttdriver.pl except for the manual tasks in xttdriver.pl are automated with this tool.
+It takes a copy of the database files to the new site and converts the files to the appropriate endian if it needs to. Then a daily backup is run and applied to the datafiles on the target to keep then up to date. It is no different to xttdriver.pl except for the manual tasks in xttdriver.pl are automated with this tool.
 
 ## Test Matrix
 
-In the table below that there are many version tests still to be carried out, at the moment I have not had time to test every version but will do in due course.
+In the table below, there are many version tests still to be carried out. At the moment I have not had time to test every version but will do so in due course.
 
 <table id="matrix" class="display">
    <thead>
@@ -110,7 +110,7 @@ In the table below that there are many version tests still to be carried out, at
    </tbody>
 </table>
 
-{{site.data.alerts.note}} Currently I do not have a Big Endian machine to test with. This is the only step of the tool which I have not been able to fully test. {{site.data.alerts.end}}
+{{site.data.alerts.note}} Currently I do not have a Big Endian machine to test with. This is the only step of the tool which I have not been able to fully test. I am awaiting delivery of server. {{site.data.alerts.end}}
 
 ## Requirements
 
@@ -123,7 +123,7 @@ Python Modules:
 
 ### Prerequisites
 
-{{site.data.alerts.important}}The target database RDBMS version must be 12c or higher. Source database must be 10g or upto the same version as target database. {{site.data.alerts.end}}
+{{site.data.alerts.important}}The target database RDBMS version must be 12c or higher. Source database must be 10g or up to the same version as target database. {{site.data.alerts.end}}
 
 ### Target Database
 
@@ -132,7 +132,7 @@ Oracle RDBMS version 12c or higher. Target database only requires the following 
 * sysaux
 * undo
 * temp
-* users  - if you do not plan to migrate the users tablespace from source you can leave this tablespace otherwise drop it. You will need to change the default database tablespace with sql command “ alter database default tablespace sysaux”. After migration change this back to users or tablespace of your chioce as long it is not any of the other four listed above. If you plan to do a full database migration then you will need to drop the Users tablespace on the target.
+* users  - if you do not plan to migrate the users tablespace from source you can leave this tablespace. Otherwise drop it. You will need to change the default database tablespace with sql command “ alter database default tablespace sysaux”. After migration change this back to users or tablespace of your chioce as long it is not any of the other four listed above. If you plan to do a full database migration then you will need to drop the Users tablespace on the target.
 
 {{site.data.alerts.note}} If migrating to same version of Oracle RDBMS please ensure that the binaries are on the same patch level. {{site.data.alerts.end}}
 
@@ -147,7 +147,7 @@ Create directory structure
       </tr>
 </table>
 
-{{site.data.alerts.note}} Replace &lt;path of your choice&gt; with root path e.g. /home/oracle {{site.data.alerts.end}}
+{{site.data.alerts.note}} Replace &lt;path of your choice&gt; with a root path e.g. /home/oracle {{site.data.alerts.end}}
 
 Create a virtual environment
 
@@ -157,7 +157,7 @@ Create a virtual environment
       </tr>
 </table>
 
-{{site.data.alerts.note}} Replace &lt;path of your choice&gt; with root path e.g. /home/oracle {{site.data.alerts.end}}
+{{site.data.alerts.note}} Replace &lt;path of your choice&gt; with a root path e.g. /home/oracle {{site.data.alerts.end}}
 
 Activate virtual environment
 
@@ -246,16 +246,15 @@ The following screens should appear:
 
 on the left hand side you have the tool and on the right side is the log console which gives information on what is occuring.
 
-As this is the first time we are running the tool, we will need to enter a process name for the migration and for this I will enter “ale1” and then a new pass key which can be max of 18 characters. You will need to keep this pass key in a safe place as from here onwards you will need it to connect to the tool.
+As this is the first time we are running the tool, we will need to enter a process name for the migration and for this I will enter “ale1” and then a new pass key which can be max of 10 characters. You will need to keep this pass key in a safe place as from here onwards you will need it to connect to the tool.
 
 <img title="" src="images/Selection_030.png" />
 
-Once you enter the details, click on “OK” you will notice information appearing in the log console.
-Next we click on the “DB Details” tab at the top of the screen 
+Once you enter the details, click on “OK”. You will notice information appearing in the log console. Next we click on the “DB Details” tab at the top of the screen 
 
 <img title="" src="images/Selection_031.png" />
 
-Now we enter the details of the source and target databases, once the details are entered click on “SAVE” button,  this will automatically invoke the “Test Source” and “Test Target” buttons.
+Now we enter the details of the source and target databases. Once the details are entered click on “SAVE” button. This will automatically invoke the “Test Source” and “Test Target” buttons.
 
 <img title="" src="images/Selection_032.png" />
 
@@ -269,34 +268,34 @@ Same again we enter the details and click save.
 
 <img title="" src="images/Selection_034.png" />
 
-Again we have successful connection as shown in the log console. Should there be a failure the buttons on the tool will also turn red. Now we click on the “Tablespaces” tab.
+Again we have successful connection as shown in the log console. Should there be a failure, the buttons on the tool will also turn red. Now we click on the “Tablespaces” tab.
 
 <img title="" src="images/Selection_035.png" />
 
-Even thou we successfully connected to the databases the tool appears to have no tablespaces listed in the panes, so we have to refresh the screen by clicking on the “Refresh” button.
+Even though we successfully connected to the databases, the tool appears to have no tablespaces listed in the panes, so we have to refresh the screen by clicking on the “Refresh” button.
 
 <img title="" src="images/Selection_036.png" />
 
-When the refresh happens the tool checks the endians of both databases. Now we can select the tablespaces we like to transfer to the target database. Currently the following tablespaces can not be migrated using the tablespace method, these are system, sysaux, undo and temp. Normally when you create a new target database the users tablespace is normally empty. If you wish you transfer the users tablespace from the source you can either rename the users tablesapce on the target of drop it. You will need to change the database default tablespace to sysaux for the duration of the migration as the Oracle default is the Users tablespace. You can do this with the command “alter database default tablespace sysaux”. After successful migration you should revert this back to USERS tablespace or tablespace you have created. 
+When the refresh happens the tool checks the endians of both databases. Now we can select the tablespaces we like to transfer to the target database. Currently, the following tablespaces can not be migrated using the tablespace method. These are system, sysaux, undo and temp. Normally, when you create a new target database, the users tablespace is normally empty. If you wish you transfer the users tablespace from the source, you can either rename the users tablespace on the target or drop it. You will need to change the database default tablespace to sysaux for the duration of the migration as the Oracle default is the Users tablespace. You can do this with the command “alter database default tablespace sysaux”. After successful migration you should revert this back to USERS tablespace or tablespace you have created. 
 
 The target database should only contain the following tablespaces as list in the screenshot below:
 
 <img title="" src="images/Selection_066.png" />
 
-Once you have selected the tablespaces you wish to transfer you will need to click on the button “Verify &amp; Save”. This will carry out a number of checks which will be seen in the log console.
+Once you have selected the tablespaces you wish to transfer, you will need to click on the button “Verify &amp; Save”. This will carry out a number of checks which will be seen in the log console.
 
 <img title="" src="images/Selection_037.png" />
 
-The very first check is the time zone file, as you can see the database have different time zones. My recommendation is for you to refer to Oracle Support (Metalink) on this for further details. For now I going to click “Yes” to ignore this as these are just proof of concept databases.
+The very first check is the time zone file. As you can see the databases have different time zones. My recommendation is for you to refer to Oracle Support (Metalink) on this for further details. For now I am going to click “Yes” to ignore this as these are just proof of concept databases.
 
 <img title="" src="images/Selection_038.png" />
 
-If you want to migrate all the tablespaces then ensure you select then all leaving the “Source” pane empty.
+If you want to migrate all the tablespaces, then ensure you select then all leaving the “Source” pane empty.
 
 In the log console you can see other checks that were carried out:
 
-a) Character sets must be same on both databases  
-b) Checks the database log mode it must be in archivelog mode  
+a) Character sets must be the same on both databases  
+b) Checks the database log mode. It must be in archivelog mode.  
 c) Checks database role (currently this tool does not support standby databases)  
 d) Checks Time Zone File Versions  
 e) Checks if tablespaces are Self-Contained  
@@ -306,7 +305,7 @@ If all the above checks pass then we are able to click on the next tab “Option
 
 <img title="" src="images/Selection_039.png" />
 
-Again we select our choices, currently this tool does not support multiple target file destinations. By clicking on the check box for “Full schema import” this will import all the objects that are not done by the transportable tablespace import like packages, procedures so on. If you click on the info  button it will give you a full list. 
+Again, we select our choices. Currently this tool does not support multiple target file destinations. By clicking on the check box for “Full schema import” this will import all the objects that are not done by the transportable tablespace import like packages, procedures so on. If you click on the info button it will give you a full list. 
 
 {{site.data.alerts.note}} This will only import objects for users that have objects within the tablespaces that have been migrated. Any other users will have to be imported separately. {{site.data.alerts.end}}
 
@@ -314,23 +313,23 @@ The target file storage can be either “ASM” or “File System”. I would st
 
 When you select either “ASM” or “File System” the drop down list will be populated with a list of storage destinations.
 
-Next you select backup schedule time, for my test I entered 10:00hrs but normally you may run this in the evening really dependent on your database activity.
+Next, you select backup schedule times. For my test I entered 10:00hrs but normally you may run this in the evening. Really dependent on your database activity.
 
-For the backup source and target destination you will have to ensure that you have enough space to hold the incremental backups, for at least a few days. 
+For the backup source and target destination you will have to ensure that you have enough space to hold the incremental backups for at least a few days. 
 
-Once you have entered all the details click on the “SAVE” button, the tool will attempt to create the directory if it does not exist. Once the save is successful the button turns green then we are able to click on the proceed button and you will be prompted for confirmation.
+Once you have entered all the details, click on the “SAVE” button. The tool will attempt to create the directory if it does not exist. Once the save is successful the button turns green. Then we are able to click on the proceed button and you will be prompted for confirmation.
 
 <img title="" src="images/Selection_040.png" />
 
-Here you will notice in the log console that there has been a failure. This is a know issue and the workaround is to click the “Proceed” button again and it should work the second time around. 
+Here you will notice in the log console that there has been a failure. This is a known issue and the workaround is to click the “Proceed” button again and it should work the second time around. 
 
 <img title="" src="images/Selection_041.png" />
 
-This time the screenshot shows the confirmation, click on “YES” if you wish to proceed.  After a few minutes the screen will return then you can click on the “Sync Status” tab.
+This time, the screenshot shows the confirmation. Click on “YES” if you wish to proceed. After a few minutes the screen will return then you can click on the “Sync Status” tab.
 
 <img title="" src="images/Selection_042.png" />
 
-In the log console, there are a lot of tasks that have been processed. Now to see this information we need to click the “Refresh All” button.
+In the log console there are many tasks that have been processed. To see this information we need to click the “Refresh All” button.
 
 <img title="" src="images/Selection_043.png" />
 
@@ -338,7 +337,7 @@ You will see a few jobs on the source database (dependant on the number of table
 
 <img title="" src="images/Selection_055.png" />
 
-Just hit “Apply” button once you changed the time or not. The next button “Run Job” will actually run the job interactively meaning you screen will lock until the job completes I would advice changing the job time instead as this does not lock your screen.
+Just hit “Apply” button whether you changed the time or not. The next button “Run Job” will actually run the job interactively meaning your screen will lock until the job completes. I would advice changing the job time instead, as this does not lock your screen.
 
 <img title="" src="images/Selection_056.png" />
 
@@ -350,19 +349,19 @@ Next button “Show Output” button will display the output if any. Select the 
 
 <img title="" src="images/Selection_058.png" />
 
-"Show Output" button is not supported for any Oracle RDBMS version lower than 12c, you will receive the below message
+"Show Output" button is not supported for any Oracle RDBMS version lower than 12c. You will receive the below message
 
 <img title="" src="images/Selection_060.png" />
 
-And lastly the “Change Parallel” button this allows you to tune the process the default parallelism is 5.
+And lastly, the “Change Parallel” button. This allows you to tune the process. The default parallelism is 5.
 
 <img title="" src="images/Selection_059.png" />
 
 Just change the figure in the table and click the “Apply” button. 
 
-{{site.data.alerts.important}} Ensure that you have enough memory and cpu power before increasing these values, also ensure you do not impact the source database. {{site.data.alerts.end}}
+{{site.data.alerts.important}} Ensure that you have enough memory and cpu power before increasing these values. Also ensure you do not impact the source database. {{site.data.alerts.end}}
 
-Next we click on the monitor tab you will see a bank screen as below:
+Next, we click on the monitor tab. You will see a bank screen as below:
 
 <img title="" src="images/Selection_044.png" />
 
@@ -376,29 +375,29 @@ As the scheduled jobs run you will inavertantly see new jobs being added and old
 
 <img title="" src="images/Selection_061.png" />
 
-In the screenshot above you can see three new job for tablespace EXAMPLE2, one to transfer the backup file another to convert the file and the final job to restore the backup file. If you check the alert log you will see details of the restore as shown here
+In the screenshot above you can see three new job for tablespace EXAMPLE2. One to transfer the backup file, another to convert the file and the final job to restore the backup file. If you check the alert log you will see details of the restore as shown here.
 
 <img title="" src="images/Selection_062.png" />
 
-as you can see it was successful.
+As you can see it was successful.
 
-Now we move to the “Final Steps” you only go to this tab if you are ready to do the switch over from source to target.
+Now we move to the “Final Steps”. You only go to this tab if you are ready to do the switch over from source to target.
 
 <img title="" src="images/Selection_067.png" />
 
-You have two options here Tablespace only and Full Database import. The screen clearly explains what either of these options do. If you have not selected all the tablespaces from the "Tablespaces" tab then you will not be allowed to select the “Full Database” button. It is only available when you select all tablespaces. You will need to ensure that the “Source” pane on the Tablespace tab is empty as shown below. If not then this option will not be available.
+You have two options here. Tablespace only and Full Database import. The screen clearly explains what either of these options do. If you have not selected all the tablespaces from the "Tablespaces" tab then you will not be allowed to select the “Full Database” button. It is only available when you select all tablespaces. You will need to ensure that the “Source” pane on the Tablespace tab is empty as shown below. If not then this option will not be available.
 
 <img title="" src="images/Selection_072.png" />
 
 Both buttons will do the same steps apart from the import stage which is the only difference. 
 
-The process scheduled is called &lt;Name&gt;_FINAL_STEPS. This will start to disable all the scheduled jobs and run then for the final time and the state will change to “BROKEN” as shown below. Once this is done then it will start the selected import.
+The process scheduled is called &lt;Name&gt;_FINAL_STEPS. This will start to disable all the scheduled jobs and run them for the final time. The state of the jobs will change to “BROKEN” as shown below. Once this is done then it will start the selected import.
 
 <img title="" src="images/Selection_077.png" />
 
-Finally you will need to check the import log files there will always be some errors, which you will need to rectify yourselfs for now. Good luck!
+Finally you will need to check the import log files. There will always be some errors which you will need to rectify yourselves. Good luck!
 
-{{site.data.alerts.important}}You will need to check teh import logs and rectify any issues, as this only carries out the import.{{site.data.alerts.end}}
+{{site.data.alerts.important}}You will need to check the import logs and rectify any issues, as this only carries out the import.{{site.data.alerts.end}}
 
 ## Appendix A
 
@@ -409,8 +408,8 @@ On the Source database:
 <table id="table98" class="display" width="100%">
       <tr>
         <td>&lt;Process Name&gt;_BACKUP_JOB_&lt;tablespace&gt; </td>
-        <td>You will see a number of these jobs running, this is dependant on the number of tablespaces you are migrating.<br><br>
-            The reason for having invidual jobs so that if there is a failure it only affects the single tablespace.
+        <td>You will see a number of these jobs running. This is dependant on the number of tablespaces you are migrating.<br><br>
+            The reason for having invidual jobs, is so that if there is a failure, it only affects the single tablespace.
         </td>
       </tr>
       <tr>
@@ -425,7 +424,7 @@ On the Target database:
 <table id="table99" class="display" width="100%">
       <tr>
         <td>&lt;Process Names&gt;_CHECK_NEW_DATAFILES </td>
-        <td>If any new datafiles are added on the Source database this process will enlist these files so that they are included as part of the migration.
+        <td>If any new datafiles are added on the Source database, this process will enlist these files, so that they are included as part of the migration.
         </td>
       </tr>
       <tr>
@@ -445,7 +444,7 @@ On the Target database:
       </tr>
       <tr>
         <td>&lt;Process Names&gt;_CHK_BAKFILES_TOBE_RESTORED</td>
-        <td>This process schedule restores for any transferred backups.
+        <td>This process schedules restore job for the transferred backup files.
         </td>
       </tr>
       <tr>
@@ -465,7 +464,7 @@ On the Target database:
       </tr>
       <tr>
         <td>&lt;Process Names&gt;_HSKBAK_FILE</td>
-        <td>This job deletes all backup pieces that have been successfully restored to the target on both source and target.
+        <td>This job deletes all backup pieces on both source and target once it have been successfully restored to the target.
         </td>
       </tr>
 </table>
