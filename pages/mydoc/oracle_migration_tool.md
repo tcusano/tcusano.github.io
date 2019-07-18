@@ -50,9 +50,13 @@ In the table below, there are many version tests still to be carried out. At the
          <td>12c (Big Endian)</td>
          <td>18c (Little Endian)</td>
          <td>18c (Big Endian)</td>
+         <td>19c (Little Endian)</td>
+         <td>19c (Big Endian)</td>
       </tr>
       <tr>
          <td>10g (Little Endian)</td>
+         <td>TBC</td>
+         <td>TBC</td>
          <td>TBC</td>
          <td>TBC</td>
          <td>TBC</td>
@@ -64,6 +68,8 @@ In the table below, there are many version tests still to be carried out. At the
          <td>TBC</td>
          <td>TBC</td>
          <td>TBC</td>
+         <td>TBC</td>
+         <td>TBC</td>
     </tr>
       <tr>
          <td>11g (Little Endian)</td>
@@ -71,9 +77,13 @@ In the table below, there are many version tests still to be carried out. At the
          <td>TBC</td>
          <td>TBC</td>
          <td>TBC</td>
+         <td>TBC</td>
+         <td>TBC</td>
       </tr>
       <tr>
          <td>11g (Big Endian)</td>
+         <td>TBC</td>
+         <td>TBC</td>
          <td>TBC</td>
          <td>TBC</td>
          <td>TBC</td>
@@ -85,9 +95,13 @@ In the table below, there are many version tests still to be carried out. At the
          <td>TBC</td>
          <td>TBC</td>
          <td>TBC</td>
+         <td>TBC</td>
+         <td>TBC</td>
       </tr>
       <tr>
          <td>12c (Big Endian)</td>
+         <td>TBC</td>
+         <td>TBC</td>
          <td>TBC</td>
          <td>TBC</td>
          <td>TBC</td>
@@ -99,9 +113,31 @@ In the table below, there are many version tests still to be carried out. At the
          <td>TBC</td>
          <td>TBC</td>
          <td>TBC</td>
+         <td>TBC</td>
+         <td>TBC</td>
       </tr>
       <tr>
          <td>18c (Big Endian)</td>
+         <td>TBC</td>
+         <td>TBC</td>
+         <td>TBC</td>
+         <td>TBC</td>
+         <td>TBC</td>
+         <td>TBC</td>
+      </tr>
+      <tr>
+         <td>19c (Little Endian)</td>
+         <td>TBC</td>
+         <td>TBC</td>
+         <td>TBC</td>
+         <td>TBC</td>
+         <td>TBC</td>
+         <td>TBC</td>
+      </tr>
+      <tr>
+         <td>19c (Big Endian)</td>
+         <td>TBC</td>
+         <td>TBC</td>
          <td>TBC</td>
          <td>TBC</td>
          <td>TBC</td>
