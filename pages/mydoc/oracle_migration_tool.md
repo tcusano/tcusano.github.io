@@ -40,7 +40,7 @@ In the table below, there are many version tests still to be carried out. At the
    <thead>
       <tr>
          <th>Source DB</th>
-         <th colspan="4">Target DB</th>
+         <th colspan="6">Target DB</th>
       </tr>
    </thead>
    <tbody>
@@ -55,111 +55,88 @@ In the table below, there are many version tests still to be carried out. At the
       </tr>
       <tr>
          <td>10g (Little Endian)</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
+         <td colspan="6">No Binaries Available</td>
       </tr>
     <tr>
          <td>10g (Big Endian)</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
+         <td colspan="6">No Binaries Available</td>
     </tr>
       <tr>
          <td>11g (Little Endian)</td>
-         <td>OK</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
+         <td><img title="" src="images/thmanpickup_small_50.jpg" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
+         <td><img title="" src="images/thwithmanhandsout_small_50.jpeg" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
+         <td><img title="" src="images/thwithmanup_small_50.jpeg" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
       </tr>
       <tr>
          <td>11g (Big Endian)</td>
          <td>TBC</td>
+         <td><img title="" src="images/notesting_small.png" /></td>
          <td>TBC</td>
+         <td><img title="" src="images/notesting_small.png" /></td>
          <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
+         <td><img title="" src="images/notesting_small.png" /></td>
       </tr>
       <tr>
          <td>12c (Little Endian)</td>
          <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
+         <td><img title="" src="images/notesting_small.png" /></td>
+         <td><img title="" src="images/thwithmanhandsout_small_50.jpeg" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
+         <td><img title="" src="images/thwithmanup_small_50.jpeg" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
       </tr>
       <tr>
          <td>12c (Big Endian)</td>
          <td>TBC</td>
+         <td><img title="" src="images/notesting_small.png" /></td>
          <td>TBC</td>
+         <td><img title="" src="images/notesting_small.png" /></td>
          <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
+         <td><img title="" src="images/notesting_small.png" /></td>
       </tr>
       <tr>
          <td>18c (Little Endian)</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
+         <td><img title="" src="images/noentryarrows_small_50.jpeg" /></td>
+         <td><img title="" src="images/noentryarrows_small_50.jpeg" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
       </tr>
       <tr>
          <td>18c (Big Endian)</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
+         <td><img title="" src="images/noentryarrows_small_50.jpeg" /></td>
+         <td><img title="" src="images/noentryarrows_small_50.jpeg" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
       </tr>
       <tr>
          <td>19c (Little Endian)</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
+         <td><img title="" src="images/noentryarrows_small_50.jpeg" /></td>
+         <td><img title="" src="images/noentryarrows_small_50.jpeg" /></td>
+         <td><img title="" src="images/noentryarrows_small_50.jpeg" /></td>
+         <td><img title="" src="images/noentryarrows_small_50.jpeg" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
       </tr>
       <tr>
          <td>19c (Big Endian)</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
-         <td>TBC</td>
+         <td><img title="" src="images/noentryarrows_small_50.jpeg" /></td>
+         <td><img title="" src="images/noentryarrows_small_50.jpeg" /></td>
+         <td><img title="" src="images/noentryarrows_small_50.jpeg" /></td>
+         <td><img title="" src="images/noentryarrows_small_50.jpeg" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
+         <td><img title="" src="images/notesting_small.png" /></td>
       </tr>
    </tbody>
 </table>
 
-{{site.data.alerts.note}} Currently I do not have a Big Endian machine to test with. This is the only step of the tool which I have not been able to fully test. I am awaiting delivery of server. {{site.data.alerts.end}}
-
-## Requirements
-
-Python 3.6.3 and above
-
-Python Modules:  
-* paramiko 2.4.0  
-* cx_Oracle 7.0.0  
-* pycrypto 2.6.1  
-
-### Prerequisites
-
-{{site.data.alerts.important}}The target database RDBMS version must be 12c or higher. Source database must be 10g or up to the same version as target database. {{site.data.alerts.end}}
+{{site.data.alerts.note}} Currently I do not have a Big Endian machine to test with. This is the only step of the tool which I have not been able to fully test. I am awaiting delivery of server. As for 10g I have no binaries. Cloud is mainly Little Endian so will not exhaust my testing going from little to big endian only upon request. {{site.data.alerts.end}}
 
 ### Target Database
 
@@ -172,95 +149,9 @@ Oracle RDBMS version 12c or higher. Target database only requires the following 
 
 {{site.data.alerts.note}} If migrating to same version of Oracle RDBMS please ensure that the binaries are on the same patch level. {{site.data.alerts.end}}
 
-### Installation
-#### Linux
+## Installation
 
-Create directory structure
-
-<table id="table1" class="display" width="100%">
-      <tr>
-         <td>mkdir -p &lt;pathpycryptoof your choice&gt;/migration/pythondir &lt;path of your choice&gt;/migration/log</td>
-      </tr>
-</table>
-
-{{site.data.alerts.note}} Replace &lt;path of your choice&gt; with a root path e.g. /home/oracle {{site.data.alerts.end}}
-
-Create a virtual environment
-
-<table id="table2" class="display" width="100%">
-      <tr>
-         <td>/usr/bin/virtualenv -p python3.6 &lt;path of your choice&gt;/migration/pythondir/venv36</td>
-      </tr>
-</table>
-
-{{site.data.alerts.note}} Replace &lt;path of your choice&gt; with a root path e.g. /home/oracle {{site.data.alerts.end}}
-
-Activate virtual environment
-
-<table id="table3" class="display" width="100%">
-      <tr>
-         <td>source &lt;path of your choice&gt;/migration/pythondir/venv36/bin/activate</td>
-      </tr>
-</table>
-
-Install paramiko module
-
-<table id="table4" class="display" width="100%">
-      <tr>
-         <td>pip install paramiko</td>
-      </tr>
-</table>
-
-Install oracle module
-
-<table id="table5" class="display" width="100%">
-      <tr>
-         <td>pip install cx_Oracle</td>
-      </tr>
-</table>
-
-Install pycrypto module
-
-<table id="table6" class="display" width="100%">
-      <tr>
-         <td>pip install pycrypto</td>
-      </tr>
-</table>
-
-Install tool modules
-
-Download latest code from GitHub
-
-<table id="table7" class="display" width="100%">
-      <tr>
- 	<td>cd &lt;path of your choice&gt;/migration/pythondir/ <br>
-	     git clone <a href="https://github.com/tcusano/tcomt.git">https://github.com/tcusano/tcomt.git</a></td>
-      </tr>
-</table>
-
-Install code and verify Python Modules
-
-<table id="table8" class="display" width="100%">
-      <tr>
- 	<td> cd tcomt<br>
-             bash install.bash</td>
-      </tr>
-</table>
-
-Expected Output
-<table id="table9" class="display" width="100%">
-      <tr>
-        <td> Installing scripts ............<br>
-         Install completed successfully.<br>
-         Checking Python module pycrypto version ....<br>
-         pycrypto version ok.<br>
-         Checking Python module paramiko version ....<br>
-         paramiko version ok.<br>
-         Checking Python module cx-Oracle version ....<br>
-         cx-Oracle version ok.
-        </td>
-      </tr>
-</table>
+To follow
 
 ## Getting Started With The Migration
 
@@ -268,8 +159,7 @@ Now we ready to start the tool:
 
 <table id="table9" class="display" width="100%">
       <tr>
-	<td> cd ${VIRTUAL_ENV} <br>
-             python maintc.py & 
+	<td> ./maintc & 
         </td>
       </tr>
 </table>
