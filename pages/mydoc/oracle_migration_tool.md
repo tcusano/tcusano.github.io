@@ -12,7 +12,32 @@ folder: mydoc
 ## License
 Copyright Tony Cusano
 
-## Introduction
+OraDB Migration Tool is licensed on an annual subscription basis. After the subscription period ends you will be invited to renew, if you choose not to renew then you will no longer be able to use OraDB Migration Tool.
+
+Conversely if you do renew then we want to recognise loyalty to our product and as such we have set renewal license fees to be approximately 25% of the first years license fee; Our fees are very competitive as it is our goal to make tools such as OraDB Migration Tool realisticaly available at a reasonable license fee to as many companies as possible.
+
+The license includes:
+
+* If the licensee (the person or company buying a license) is not resident in the UK then they are the importer of record and the licensee is fully responsible for ensuring that the imported goods comply with local laws and regulations and that the purchase is in full compliance with the laws of the country the goods are imported and that all import duties and taxes in respect to the goods are paid
+* If the licensee (the person or company buying a license) is not resident in the UK then there may be import duties and / or taxes due on the goods in the licensees country. We are not responsible for these charges and we do not estimate or calculate what these charges may be. We expect the full license fee quoted to be received by us. If taxes such as WHT (WithHoldingTax) are retained in the licensees country then they MUST pay a license fee + WHT so that we receive our full license fee. Please speak to us before paying to ensure that the invoice reflects the correct fee + WHT.
+* The license is an annual subscription; the renewal fees quoted for subsequent years of use are approximately 25% of the initial license fee. As long as you remain licensed you qualify for the reduced license fee.
+* To take advantage of the reduced renewal fee you must renew the annual license before it expires or no later than 30 days from the expiration date of any current license. Be aware that the software is technically limited to stop working after the expiration date of the license.
+* The license is for installing and use of OraDB Migration Tool software.
+* If you do not renew the annual license for OraDB Migration Tool after it expires you cannot continue to use it.
+* OraDB Migration Tool product support is included in the license fee but not consulting we can provide these for a fee, please talk to us at tonycusano@virginmedia.com
+* All major and minor updates are available for free whilst you are fully licensed
+* All support is remote only. We do not make site visits.
+* To use the tool you must have your own Oracle Licenses.
+
+The license includes use of the software, updates, support and maintenance but not consulting. Please talk to us if you would like to hire us on a fee paid basis to help; again email tonycusano@virginmedia.com.
+
+License fees can be changed at any time at our discretion.
+
+The license fee will increase in next version comes out but anyone with a valid license for version 1.0 will be entitled to update to version 2.0 under the same license terms. 
+
+If you would like to purchase or 30 day trial subscription license for OraDB Migration Tool then please contact tonycusano@virginmedia.com. At present purchasing is done via email contact, we will raise an invoice for payment and arrange a licensed copy of the software for download.
+
+## Introduction:
 
 The reason I started to write this migration tool was really to achive two things. The first was to learn Python and the second to have a tool to migrate Oracle database from on premise to the Cloud or to another server on premise. A few years ago I carried out a proof of concept in migrating an Oracle database from Oracle Solaris (Big Endian) on premise to Oracle Linux (Little Endian) in Oracle Cloud using xttdriver.pl (which is script provided by Oracle). I found that there was too much manual work involved in using this tool and is prone to human error. Therefore I set myself a challege to write a tool that hopefully will make it easier for the DBA to migrate an Oracle database without the worry of having to remember all the manual checks you have to do before you start a migration and the hassel of the manual tasks of backups and restores.
 
@@ -54,14 +79,6 @@ In the table below, there are many version tests still to be carried out. At the
          <td>19c (Big Endian)</td>
       </tr>
       <tr>
-         <td>10g (Little Endian)</td>
-         <td colspan="6">No Binaries Available</td>
-      </tr>
-    <tr>
-         <td>10g (Big Endian)</td>
-         <td colspan="6">No Binaries Available</td>
-    </tr>
-      <tr>
          <td>11g (Little Endian)</td>
          <td><img title="" src="images/thmanpickup_small_50.jpg" /></td>
          <td><img title="" src="images/notesting_small.png" /></td>
@@ -72,16 +89,16 @@ In the table below, there are many version tests still to be carried out. At the
       </tr>
       <tr>
          <td>11g (Big Endian)</td>
-         <td>TBC</td>
+         <td><img title="" src="images/thmanpickup_small_50.jpg" /></td>
          <td><img title="" src="images/notesting_small.png" /></td>
-         <td>TBC</td>
+         <td><img title="" src="images/thwithmanhandsout_small_50.jpeg" /></td>
          <td><img title="" src="images/notesting_small.png" /></td>
-         <td>TBC</td>
+         <td><img title="" src="images/thwithmanup_small_50.jpeg" /></td>
          <td><img title="" src="images/notesting_small.png" /></td>
       </tr>
       <tr>
          <td>12c (Little Endian)</td>
-         <td>TBC</td>
+         <td><img title="" src="images/thmanpickup_small_50.jpg" /></td>
          <td><img title="" src="images/notesting_small.png" /></td>
          <td><img title="" src="images/thwithmanhandsout_small_50.jpeg" /></td>
          <td><img title="" src="images/notesting_small.png" /></td>
@@ -90,11 +107,11 @@ In the table below, there are many version tests still to be carried out. At the
       </tr>
       <tr>
          <td>12c (Big Endian)</td>
-         <td>TBC</td>
+         <td><img title="" src="images/thmanpickup_small_50.jpg" /></td>
          <td><img title="" src="images/notesting_small.png" /></td>
-         <td>TBC</td>
+         <td><img title="" src="images/thwithmanhandsout_small_50.jpeg" /></td>
          <td><img title="" src="images/notesting_small.png" /></td>
-         <td>TBC</td>
+         <td><img title="" src="images/thwithmanup_small_50.jpeg" /></td>
          <td><img title="" src="images/notesting_small.png" /></td>
       </tr>
       <tr>
@@ -136,7 +153,7 @@ In the table below, there are many version tests still to be carried out. At the
    </tbody>
 </table>
 
-{{site.data.alerts.note}} Currently I do not have a Big Endian machine to test with. This is the only step of the tool which I have not been able to fully test. I am awaiting delivery of server. As for 10g I have no binaries. Cloud is mainly Little Endian so will not exhaust my testing going from little to big endian only upon request. {{site.data.alerts.end}}
+{{site.data.alerts.note}} For 10g I have no binaries. Cloud is mainly Little Endian so will not exhaust my testing going from little to big endian or big endian to big endian, only upon request. {{site.data.alerts.end}}
 
 ### Target Database
 
@@ -168,13 +185,15 @@ Now we ready to start the tool:
 
 The following screens should appear:
 
-<img title="" src="images/Selection_029.png" />
+<img title="" src="images/Selection_136.png" />
 
 on the left hand side you have the tool and on the right side is the log console which gives information on what is occuring.
 
-As this is the first time we are running the tool, we will need to enter a process name for the migration and for this I will enter “ale1” and then a new pass key which can be max of 10 characters. You will need to keep this pass key in a safe place as from here onwards you will need it to connect to the tool.
+As this is the first time we are running the tool, we will need to enter a process name for the migration and for this I will enter “ale3” and then a new pass key which can be max of 10 characters. You will need to keep this pass key in a safe place as from here onwards you will need it to connect to the tool. You will also have to acquire a trial or yearly subscription license key from the vendor.
 
-<img title="" src="images/Selection_030.png" />
+Note: Trail version max total tablespaces size is restricted to 100GB.
+
+<img title="" src="images/Selection_137.png" />
 
 Once you enter the details, click on “OK”. You will notice information appearing in the log console. Next we click on the “DB Details” tab at the top of the screen 
 
@@ -425,3 +444,20 @@ Where is path defined:
 
 &lt;source backup location&gt; - Details entered in the GUI via tab Options “Source Location”  
 &lt;target backup location&gt; - Details entered in the GUI via tab Options “Target Location”
+
+
+## Known issues
+### Issue 1
+Should your job "&lt;Process Names&gt;\_BAK_FILE\_&lt;tablespace_name&gt;\_&lt;SCN&gt;\_&lt;backup piece&gt;" hit the error below this would suggest an SSH key issue:
+
+"ORA-27369: job of type EXECUTABLE failed with exit code: 255 [5099] Failed to execute script cloudfile
+Traceback (most recent call last)<br>
+ORA-06512: at line 85<br>
+ORA-06512: at line 81<br>
+ORA-06512: at "SYS.DBMS_ISCHED", line 238<br>
+ORA-06512: at "SYS.DBMS_SCHEDULER", line 568<br>
+ORA-06512: at line 56
+"
+### Solution
+Check on the source machine that the public key "&lt;process Name&gt;_key.pub" has been correctly copied to the authorized_keys file in $HOME/.ssh.
+

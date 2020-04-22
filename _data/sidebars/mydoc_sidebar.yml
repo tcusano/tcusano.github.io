@@ -19,7 +19,7 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Tools
+  - title: Automation Tools
     output: web
     folderitems:
 
@@ -34,6 +34,32 @@ entries:
 
         - title: OraDB Migration Tool
           url: /oracle_migration_tool.html
+          output: web
+
+    - title: 
+      url: 
+      output: web
+
+      subfolders:
+      - title: Windows
+        output: web
+        subfolderitems:
+
+        - title: Last Login Report
+          url: /windows_last-login_report.html
+          output: web
+
+    - title: 
+      url: 
+      output: web
+
+      subfolders:
+      - title: SMS
+        output: web
+        subfolderitems:
+
+        - title: SMS from command line
+          url: /sms_from_commandline.html
           output: web
 
   - title: Tips
@@ -53,23 +79,23 @@ entries:
           url: /mydoc_oracle_virtualbox.html
           output: web
 
-#  - title: How-To
-#    output: web
-#    folderitems:
-#
-#    - title: 
-#      url: 
-#      output: web
-#
-#      subfolders:
-#      - title: Jenkins
-#        output: web
-#        subfolderitems:
-#
-#        - title: Scan pipeline scm log
-#          url: /mydoc_scan_pipeline_scm_log.html
-#          output: web
-#
+  - title: How-To
+    output: web
+    folderitems:
+
+    - title: 
+      url: 
+      output: web
+
+      subfolders:
+      - title: Jenkins
+        output: web
+        subfolderitems:
+
+        - title: Scan pipeline scm log
+          url: /mydoc_scan_pipeline_scm_log.html
+          output: web
+
 #        - title: Navigation pages
 #          url: /tag_navigation.html
 #          output: web

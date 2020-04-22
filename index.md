@@ -5,7 +5,7 @@ permalink: index.html
 ---
 # About This Site
 
-I have decided to create this site is for a number of reasons: 
+I have decided to create this site for a number of reasons: 
  1. It's a way to share some of my experiences,tips and gotcha's with fellow IT personel or super users (can't leave them out).
  2. It's way for me to learn another exciting tool, Jekyll, upon which this site is built.  <img title="my sample page" src="images/jekyll.png" />
  3. To advertise any new products I develop.

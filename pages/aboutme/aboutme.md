@@ -10,7 +10,7 @@ folder: aboutme
 ---
 
 # Summary
-I have worked in an IT since 1988. I first started my career in IT operations and I gradually moved to PC support and then into “Midrange” systems. I also worked in system security and eventually moved into Oracle development team as DBA/developer in 1994. I have been using Oracle since version 7. I have been working as a DevOps Engineer since April 2018.
+I have worked in an IT since 1988. I first started my career in IT operations and I gradually moved to PC support and then into “Midrange” systems. I also worked in system security and eventually moved into Oracle development team as DBA/developer in 1994. I have been using Oracle since version 7. I have been working as a DevOps Engineer since April 2018. In August 2019 I got moved into a new team called "Database Adminstrators and Automation Specialists".
 
 # Character Description
 I am highly motivated, committed and a very fast learner. I have great determination and confidence. I thrive on challenges and enjoy problem solving. I work in a proactive way and can work alone or within a team. I have, so far, always met my targets with 100% success rate. I give my best efforts to achieve the long term solution. I am disciplined in how I work. I always generate plans which I produce for all my implementations (MS Projects) and carry out thorough testing. 
@@ -52,7 +52,8 @@ Myers-Briggs Description:
          <td>- Github.com<br>
           - Devops Azure (Cloud)<br>
           - PVCS<br>
-         - Subversion</td>
+         - Subversion<br>
+	 - Git</td>
          <td>- AWS<br>
           - Oracle (POC)
          </td>
