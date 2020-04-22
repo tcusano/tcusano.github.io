@@ -24,12 +24,12 @@ The license includes:
 * To take advantage of the reduced renewal fee you must renew the annual license before it expires or no later than 30 days from the expiration date of any current license. Be aware that the software is technically limited to stop working after the expiration date of the license.
 * The license is for installing and use of OraDB Migration Tool software.
 * If you do not renew the annual license for OraDB Migration Tool after it expires you cannot continue to use it.
-* OraDB Migration Tool product support is included in the license fee but not consulting we can provide these for a fee, please talk to us at tonycusano@virginmedia.com
+* OraDB Migration Tool product support is included in the license fee but not consulting we can provide these for a fee.
 * All major and minor updates are available for free whilst you are fully licensed
 * All support is remote only. We do not make site visits.
 * To use the tool you must have your own Oracle Licenses.
 
-The license includes use of the software, updates, support and maintenance but not consulting. Please talk to us if you would like to hire us on a fee paid basis to help; again email tonycusano@virginmedia.com.
+The license includes use of the software, updates, support and maintenance but not consulting. Please talk to us if you would like to hire us on a fee paid basis to help; email tonycusano@virginmedia.com.
 
 License fees can be changed at any time at our discretion.
 
