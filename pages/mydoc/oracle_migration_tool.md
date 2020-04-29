@@ -59,7 +59,7 @@ It takes a copy of the database files to the new site and converts the files to 
 
 ## Test Matrix
 
-In the table below, there are many version tests still to be carried out. At the moment I have not had time to test every version but will do so in due course.
+The table below shows the versions I have tested.
 
 <table id="matrix" class="display">
    <thead>
