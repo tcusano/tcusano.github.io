@@ -155,6 +155,9 @@ The table below shows the versions I have tested.
 
 {{site.data.alerts.note}} For 10g I have no binaries. Cloud is mainly Little Endian so will not exhaust my testing going from little to big endian or big endian to big endian, only upon request. {{site.data.alerts.end}}
 
+### Source Database 
+Minimum version tested on 11.2.0.1
+
 ### Target Database
 
 Oracle RDBMS version 12c or higher. Target database only requires the following tablespaces:
@@ -167,7 +170,7 @@ Oracle RDBMS version 12c or higher. Target database only requires the following 
 {{site.data.alerts.note}} If migrating to same version of Oracle RDBMS please ensure that the binaries are on the same patch level. {{site.data.alerts.end}}
 
 ## Requirements
-This tool is support on Linux only currently.
+This tool is supported on Linux only.
 
 ## Installation
 
