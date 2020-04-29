@@ -13,7 +13,7 @@ I have decided to create this site for a number of reasons:
 # It's arrived free beta trial now available
 
 I am very excited to announce a new tool called "OraDB Migration Tool" which I have been working on for the past 18 months (on and off in my spare time). 
-The product is now availble beta version, documentation can be viewed <a href='oracle_migration_tool.html'>here</a>.
+The product is now available beta version, documentation can be viewed <a href='oracle_migration_tool.html'>here</a>.
 
 The reason I started to write this migration tool was really to achieve two things. The first was to learn Python and the second to have a tool to migrate Oracle database from on premise to the Cloud or to another server on premise, making the DBA life hassle free!
   
