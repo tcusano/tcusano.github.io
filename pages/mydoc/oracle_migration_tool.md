@@ -168,7 +168,11 @@ Oracle RDBMS version 12c or higher. Target database only requires the following 
 
 ## Installation
 
-To follow
+1. Fill in application form and send to tonycusano@virginmedia.com
+2. You will receive download link and license key type requested
+3. create installation directory name of your choice
+4. cd &lt;installation directory&gt;/maintc
+5. unzip file in the installation directory
 
 ## Getting Started With The Migration
 
@@ -176,8 +180,10 @@ Now we ready to start the tool:
 
 <table id="table9" class="display" width="100%">
       <tr>
-	<td> ./maintc & 
-        </td>
+	<td> cd &lt;installation directory&gt; </td>
+      </tr>
+      <tr>
+	<td> ./maintc & </td>
       </tr>
 </table>
 
@@ -191,7 +197,7 @@ on the left hand side you have the tool and on the right side is the log console
 
 As this is the first time we are running the tool, we will need to enter a process name for the migration and for this I will enter “ale3” and then a new pass key which can be max of 10 characters. You will need to keep this pass key in a safe place as from here onwards you will need it to connect to the tool. You will also have to acquire a trial or yearly subscription license key from the vendor.
 
-Note: Trail version max total tablespaces size is restricted to 100GB.
+Note: Trial version max total tablespaces size is restricted to 100GB.
 
 <img title="" src="images/Selection_137.png" />
 
