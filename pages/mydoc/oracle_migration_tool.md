@@ -171,7 +171,7 @@ Oracle RDBMS version 12c or higher. Target database only requires the following 
 1. Fill in application form and send to tonycusano@virginmedia.com
 2. You will receive download link and license key type requested
 3. create installation directory name of your choice
-4. cd &lt;installation directory&gt;/maintc
+4. cd &lt;installation directory&gt;
 5. unzip file in the installation directory
 
 ## Getting Started With The Migration
@@ -180,7 +180,7 @@ Now we ready to start the tool:
 
 <table id="table9" class="display" width="100%">
       <tr>
-	<td> cd &lt;installation directory&gt; </td>
+	<td> cd &lt;installation directory&gt;/maintc </td>
       </tr>
       <tr>
 	<td> ./maintc & </td>
