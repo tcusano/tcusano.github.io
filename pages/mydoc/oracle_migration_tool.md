@@ -166,6 +166,9 @@ Oracle RDBMS version 12c or higher. Target database only requires the following 
 
 {{site.data.alerts.note}} If migrating to same version of Oracle RDBMS please ensure that the binaries are on the same patch level. {{site.data.alerts.end}}
 
+## Requirements
+This tool is support on Linux only currently.
+
 ## Installation
 
 1. Fill in application form and send to tonycusano@virginmedia.com
