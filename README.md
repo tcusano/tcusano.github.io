@@ -1,14 +1,3 @@
----
-title: About Me In Brief
-tags:
-keywords:
-last_updated: July 6, 2019
-summary: 
-sidebar: home_sidebar
-permalink: aboutme.html
-folder: aboutme
----
-
 # Summary
 I have worked in an IT since 1988. I first started my career in IT operations and I gradually moved to PC support and then into “Midrange” systems. I also worked in system security and eventually moved into Oracle development team as DBA/developer in 1994. I have been using Oracle since version 7. I have been working as a DevOps Engineer since April 2018. In August 2019 I got moved into a new team called "Database Adminstrators and Automation Specialists".
 
