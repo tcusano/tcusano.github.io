@@ -24,7 +24,7 @@
 
 [Pagerduty wrapper](pagerduty/pagerduty.md)
 
-[File/Folder Transfer](./filetransfer.md)
+[File/Folder Transfer](https://github.com/tcusano/python/blob/main/sshscp)
 
 ## Azure
 
@@ -33,4 +33,3 @@
 [Clear Storage container](https://github.com/tcusano/powershell/blob/main/AZ_clear_stgcontainer.ps1)
 
 [Stop/Start VM](https://github.com/tcusano/powershell/blob/main/AZ_stopstartvm.ps1)
-

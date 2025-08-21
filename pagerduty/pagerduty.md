@@ -109,6 +109,4 @@ In the image above 1 is the info from --jdetails and 2 is from --details
 ### Example 3 using --details only:
 ![Image description](images/pagerduty_details_only.jpg)]
 
-
-
-[Source]()
+[Source](https://github.com/tcusano/python/pagerduty)
