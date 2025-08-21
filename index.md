@@ -31,3 +31,7 @@
 [Clear Storage container](https://github.com/tcusano/powershell/blob/main/AZ_clear_stgcontainer.ps1)
 
 [Stop/Start VM](https://github.com/tcusano/powershell/blob/main/AZ_stopstartvm.ps1)
+
+
+# Automation
+
