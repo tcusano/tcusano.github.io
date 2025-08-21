@@ -2,9 +2,9 @@
 
 ## Quick reference
 
-[Linux](https://tcusano.github.io/Linux.md)
+[Linux](./linux.md)
 
-[Oracle](https://tcusano.github.io/oracle.md)
+[Oracle](./oracle.md)
 
 ## Cheatsheets
 
@@ -12,19 +12,19 @@
 
 [Bash](cheatsheets/Bash-scripting.pdf)
 
-[Powershell](cheatsheets/powershell_lagref_v3.pdf)
+[Powershell](cheatsheets/powershell_langref_v3.pdf)
 
 ## Python
 
 ### Migration Tools
 
-[Oracle Database Migration Tool (Big endian to Small endian platform and visa versa)](oracle/oracle_migration_tool.md)
+[Oracle Database Migration Tool (Big endian to Small endian platform and visa versa)](./oracle/oracle_migration_tool.md)
 
 ### Utilities
 
 [Pagerduty wrapper](pagerduty/pagerduty.md)
 
-[File/Folder Transfer](filetransfer.md)
+[File/Folder Transfer](./filetransfer.md)
 
 ## Azure
 
