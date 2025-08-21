@@ -35,3 +35,4 @@
 
 # Automation
 
+[Azure/Terraform](./azure.md)
