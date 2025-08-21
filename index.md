@@ -18,7 +18,7 @@
 
 ### Migration Tools
 
-[Oracle Database Migration Tool (Big endian to Small endian platform and visa versa)](./oracle/oracle_migration_tool.md)
+[Oracle Database Migration Tool (Big endian to Small endian platform and visa versa)](https://tcusano.github.io/oracle/oracle_migration_tool.md)
 
 ### Utilities
 
