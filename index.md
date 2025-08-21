@@ -18,7 +18,7 @@
 
 ### Migration Tools
 
-[Oracle Database Migration Tool (Big endian to Small endian platform and visa versa)](https://tcusano.github.io/oracle/oracle_migration_tool.md)
+[Oracle Database Migration Tool (Big endian to Small endian platform and visa versa)](https://tcusano.github.io/Oracle/oracle_migration_tool.md)
 
 ### Utilities
 
@@ -27,8 +27,6 @@
 [File/Folder Transfer](https://github.com/tcusano/python/blob/main/sshscp)
 
 ## Azure
-
-### Utilities
 
 [Clear Storage container](https://github.com/tcusano/powershell/blob/main/AZ_clear_stgcontainer.ps1)
 
