@@ -2,9 +2,9 @@
 
 ## Quick reference
 
-[Linux](Linux.md)
+[Linux](https://tcusano.github.io/Linux.md)
 
-[Oracle](oracle.md)
+[Oracle](https://tcusano.github.io/oracle.md)
 
 ## Cheatsheets
 
