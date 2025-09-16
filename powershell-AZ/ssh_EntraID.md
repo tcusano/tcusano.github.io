@@ -22,11 +22,11 @@ Ensure that your VM is configured with the following functionality:
 
 1. System-assigned managed identity. This option is automatically selected when you use the Azure portal to create VMs and select the Microsoft Entra login option. You can also enable system-assigned managed identity on a new or existing VM by using the Azure CLI.
 
-<span style="color:yellow"> NOTE: This is done as part of the VM build. </span>
+<span style="color:blue"> NOTE: This is done as part of the VM build. </span>
 
 2. aadsshlogin and aadsshlogin-selinux (as appropriate). These packages are installed with the AADSSHLoginForLinux VM extension. The extension is installed when you use the Azure portal or the Azure CLI to create VMs and enable Microsoft Entra login (Management tab).
 
-<span style="color:yellow"> NOTE: This will done via a policy </span>
+<span style="color:blue"> NOTE: This will done via a policy </span>
 
 ### Configure role assignments for the VM
 
@@ -40,7 +40,7 @@ To allow a user to sign in to a VM over SSH, you must assign the Virtual Machine
 
 An Azure user who has the Owner or Contributor role assigned for a VM doesn't automatically have privileges to Microsoft Entra sign in to the VM over SSH. There's an intentional (and audited) separation between the set of people who control virtual machines and the set of people who can access virtual machines.
 
-<span style="color:yellow"> NOTE: This is also done via a policy. </span>
+<span style="color:blue"> NOTE: This is also done via a policy. </span>
 
 ## Connecting to the VM
 
@@ -80,7 +80,7 @@ c) az account set --subscription xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 d) az ssh config --file C:/users/U46630/.ssh/config -n AZTONYL50T -g RG_Tonytest
 
-<span style="color:yellow"> NOTE: Run above only when you require ssh key</span>
+<span style="color:blue"> NOTE: Run above only when you require ssh key</span>
 
 e) ssh RG_Tonytest-AZTONYL50T
 

@@ -32,7 +32,6 @@
 
 [Stop/Start VM](https://github.com/tcusano/powershell/blob/main/AZ_stopstartvm.ps1)
 
-
 # Automation
 
 [Azure/Terraform](./azure.md)
